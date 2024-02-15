@@ -49,7 +49,7 @@ const LandingCard = props => {
             </div>
             <div className="d-flex justify-content-end">
               <div id="prof"></div>
-              {/* <div className="d-flex mx-3">
+              <div className="d-flex mx-3">
                 <Link to={`/chat-rc`} id={"message" + user._id}>
                   <UncontrolledTooltip
                     placement="bottom"
@@ -61,7 +61,7 @@ const LandingCard = props => {
                     <i className="bx bx-message-square-dots" id="atticon" />
                   </div>
                 </Link>
-              </div> */}
+              </div>
               <div className="d-flex mx-3">
                 <Link
                   to={`/projects-overview?uid=${user._id}`}
