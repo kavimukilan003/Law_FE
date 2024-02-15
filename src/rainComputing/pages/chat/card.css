@@ -1,0 +1,73 @@
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* .card .form-control {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+  } */
+  .card .ql-toolbar {
+    border-bottom: 1px solid #ccc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card .ql-container {
+   /* box-sizing: border-box;
+    border-top: none; */
+  border: none;
+  padding-top: 5px;
+  }
+  
+  .card .ql-editor {
+    min-height: 10px;
+    min-width: fit-content; /* Set the minimum height for the editor content area */ 
+  }
+  .full-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background: white; /* You can change the background color to your preference */
+    overflow: auto;
+/* Add any other styling you want for the full-screen view */
+  }
+  .domain-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+ 
+
+.domain-item:hover {
+  background-color: #e0e0e0;
+  color: #333; 
+  
+}
+.domain-items {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.domain-items:hover {
+  background-color: #e0e0e0;
+  color: #333; 
+  
+}
+.recorder{
+  border-radius: 20px;
+  background-color: #e0e0e0;
+}
+/* Add this CSS to your stylesheet or style section in your React component */
+.search-box {
+  height: 40px;
+  width: 300px;
+  padding: 10px;
+  padding-top: 10px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-right: 10px;
+  
+}
+.search-form{
+  padding-bottom: 20px;
+}
+

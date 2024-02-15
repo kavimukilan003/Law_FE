@@ -1,0 +1,60 @@
+$active-bg: #ECF2FE;
+
+.accordion-icon[aria-expanded="true"] {
+    transform: rotate(180deg);
+    // background-image: $chev-icon;
+}
+
+.accordion-icon {
+    transition: all 0.4s;
+    opacity: 0.3;
+    width: 20px;
+    height: 20px;
+}
+
+.accordion-icon-right {
+    transform: rotate(-90deg);
+    opacity: 0.5;
+    width: 15px;
+    height: 15px;
+}
+
+.members-container {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.active-case-bg {
+    background-color: $active-bg;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.member-card {
+    width: 240px;
+}
+
+.member-card:hover {
+    transform: translateY(-2px);
+    transition: all 0.4s;
+}
+
+.tooltip-parent {
+    position: relative;
+}
+
+.tooltip-item {
+    position: absolute;
+    z-index: 2;
+    top: 100%;
+    left: 50%;
+    margin-left: -50%;
+    text-align: center;
+    padding: 3px;
+}
+
+.tooltip-parent:hover .tooltip-item {
+    visibility: visible;
+}

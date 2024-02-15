@@ -1,0 +1,19 @@
+{
+  "rules": {
+    "no-undef": "off",
+    "react/no-unknown-property": ["off", { "ignore": ["download"] }]
+  },
+  "extends": [
+    "plugin:react/recommended"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "experimentalObjectRestSpread": true
+    }
+  }
+}

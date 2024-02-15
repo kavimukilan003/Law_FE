@@ -1,0 +1,29 @@
+.upcoming-reminder {
+    background-color: #ffc107;
+  }
+  .reminder-spin .close::before {
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    100% { transform: rotate(45deg); }
+  }
+  .icon{
+    animation:notification 2s infinite;
+    font-size:16px;
+    color:blue;
+}
+@keyframes notification{
+    5%{
+        transform:rotate(10deg);
+    }
+    10%{
+        transform:rotate(-10deg);
+    }
+    15%{
+        transform:rotate(10deg);
+    }
+    20%{
+        transform:rotate(0deg);
+    }
+}
