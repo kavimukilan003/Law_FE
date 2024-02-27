@@ -1,1 +1,1 @@
-export const SERVER_URL = "https://law-be.vercel.app"
+export const SERVER_URL = "http://localhost:8080"
