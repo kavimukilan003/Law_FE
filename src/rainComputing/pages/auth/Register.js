@@ -75,7 +75,7 @@ const RainRegister = () => {
     },
     
     validationSchema: Yup.object({
-      email: Yup.string().required("Please Enter Your Email").max(30, 'Must be 30 characters or less'),
+      email: Yup.string().required("Please Enter Your Email").max(60, 'Must be 60 characters or less'),
       firstname: Yup.string().required("Please Enter Your firstname").max(30, 'Must be 30 characters or less'),
       lastname: Yup.string().required("Please Enter Your lastname").max(10, 'Must be 10 characters or less'),
       password: Yup.string()
@@ -239,7 +239,7 @@ const RainRegister = () => {
                             <Input
                               id="email"
                               name="email"
-                              maxLength={31}
+                              maxLength={60}
                               className="form-control"
                               placeholder="Enter email"
                               type="email"

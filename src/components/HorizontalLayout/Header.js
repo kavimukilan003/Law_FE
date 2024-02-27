@@ -169,8 +169,8 @@ const Header = props => {
                   </DropdownMenu>
                 </Dropdown>
               </div> */}
-              {/* <div>
-                  {currentUser && <NotificationDropdown />}</div> */}
+              <div>
+                  {currentUser && <NotificationDropdown />}</div>
                  
                  {/* <div> {currentUser && (
                     <Reminder
